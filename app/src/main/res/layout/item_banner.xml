@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/bannerFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoStart="true"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/fade_in"
+        android:layout_marginBottom="40dp"
+        android:outAnimation="@android:anim/fade_out">
+
+        <ImageView
+            android:id="@+id/bannerImage1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/gshock" />
+
+        <ImageView
+            android:id="@+id/bannerImage2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/casiostrangerthingscollab" />
+
+        <ImageView
+            android:id="@+id/bannerImage3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/edificeautpmaticcasio" />
+
+        <ImageView
+            android:id="@+id/bannerImage4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cts176" />
+
+        <ImageView
+            android:id="@+id/bannerImage5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/categorytopcelviano" />
+
+        <ImageView
+            android:id="@+id/bannerImage6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/casiostyles" />
+
+        <ImageView
+            android:id="@+id/bannerImage7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bannerimgborder"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:src="@drawable/scientifictopcasio" />
+
+    </ViewFlipper>
+
+</LinearLayout>
